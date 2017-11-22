@@ -152,6 +152,7 @@ namespace IntelligentKioskSample.Views
         {
             switch (language)
             {
+                case "Japanese": return "ja-JP";
                 case "English": return "en-US";
                 case "Spanish": return "es-MX";
                 case "French": return "fr-FR";
@@ -165,6 +166,7 @@ namespace IntelligentKioskSample.Views
         {
             switch (language)
             {
+                case "Japanese": return "ja";
                 case "English": return "en";
                 case "Spanish": return "es";
                 case "French": return "fr";

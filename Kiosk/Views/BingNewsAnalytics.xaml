@@ -57,6 +57,7 @@
 
             <ComboBox Grid.Column="3" x:Name="languageComboBox" VerticalAlignment="Bottom" Width="130" Margin="24,0,0,0" Header="Language:" SelectedIndex="0" SelectionChanged="LanguageSelectionChanged">
                 <ComboBox.Items>
+                    <x:String>Japanese</x:String>
                     <x:String>English</x:String>
                     <x:String>Spanish</x:String>
                     <x:String>French</x:String>
