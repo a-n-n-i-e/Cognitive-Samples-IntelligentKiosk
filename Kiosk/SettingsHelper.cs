@@ -416,6 +416,6 @@ namespace IntelligentKioskSample
             }
         }
 
-        public string[] AvailableApiRegions { get { return new string[] { "eastus2", "eastasia", "southeastasia", "westcentralus", "westeurope", "westus" }; } }
+        public string[] AvailableApiRegions { get { return new string[] { "westus", "westus2", "eastus", "eastus2", "westcentralus", "southcentralus", "westeurope", "northeurope", "southeastasia","eastasia","australiaeast","brazilsouth" }; } }
     }
 }
